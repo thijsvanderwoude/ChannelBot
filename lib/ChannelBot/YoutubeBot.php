@@ -226,7 +226,7 @@ class YoutubeBot {
         switch($field) {
             case "channel_id":
                 $validator = $validator
-                    ->string()
+                    ->stringType()
                     ->notEmpty()
                     ->noWhitespace()
                     ->alnum("_-")
@@ -235,7 +235,7 @@ class YoutubeBot {
                 break;
             case "channel":
                 $validator = $validator
-                    ->string()
+                    ->stringType()
                     ->notEmpty()
                     ->noWhitespace()
                     ->alnum()
@@ -243,7 +243,7 @@ class YoutubeBot {
                 break;
             case "subreddit":
                 $validator = $validator
-                    ->string()
+                    ->stringType()
                     ->notEmpty()
                     ->noWhitespace()
                     ->alnum("_")
