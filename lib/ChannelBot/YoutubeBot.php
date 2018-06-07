@@ -14,7 +14,7 @@ use ChannelBot\Exceptions\InvalidChannelException;
 use ChannelBot\Exceptions\NotAModException;
 use Hoa\File\File;
 use Hoa\File\Read;
-use Madcoda\Youtube;
+use Madcoda\Youtube\Youtube;    // Needed an extra \Youtube, now it can get stuff from YouTube
 use RedditApiClient\Reddit;
 use Respect\Validation\Validator;
 use Symfony\Component\Yaml\Yaml;
