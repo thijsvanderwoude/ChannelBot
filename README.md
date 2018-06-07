@@ -1,3 +1,5 @@
+# 7/6/2018 DMY, fixing it because it gave me issues with PHP7+ so it doesn't suck a fat cock
+
 # ChannelBot
 ChannelBot is a simple bot that posts the latest videos from a certain set of channels to a certain set of subreddits.
 What's special about it is that **most of it's configuration goes through reddit's PM system.**
